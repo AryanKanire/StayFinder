@@ -1,0 +1,58 @@
+<% layout("/layouts/boilerplate") %>
+<h3 class="text-center mt-4">Create New Listing</h3>
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-8 offset-2">
+            <form action="/listing" method="post" novalidate class="needs-validation" enctype="multipart/form-data">
+                <div class="mb-3">
+                    <label for="title" class="form-label">Enter Title</label>
+                    <input 
+                    name="listing[title]" 
+                    placeholder="Enter title" 
+                    class="form-control" 
+                    type="text" 
+                    required>
+                </div>
+                <div class="mb-3">
+                    <label for="description" class="form-label">Description</label>
+                    <textarea name="listing[description]" placeholder="Enter description" class="form-control" required></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="image" class="form-label">Upload Image</label>
+                    <input name="listing[image]" class="form-control" type="file">
+                </div>
+                <div class="mb-3">
+                    <label for="price" class="form-label">Price</label>
+                    <input required name="listing[price]" placeholder="Enter price" class="form-control" type="number">
+                </div>
+                <div class="mb-3">
+                    <label for="country" class="form-label">Enter Country</label>
+                    <input required name="listing[country]" class="form-control" placeholder="Enter country" type="text">
+                </div>
+                <div class="mb-3">
+                    <label for="location" class="form-label">Enter Location</label>
+                    <input required name="listing[location]" class="form-control" placeholder="Enter location" type="text">
+                </div>
+                <div class="text-center">
+                    <button class="btn btn-dark">Add</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<style>
+    .container {
+        max-width: 900px;
+    }
+    .form-label {
+        font-weight: bold;
+    }
+    .form-control {
+        border-radius: 0.5rem;
+    }
+    .btn {
+        padding: 0.5rem 2rem;
+        border-radius: 0.5rem;
+    }
+</style>

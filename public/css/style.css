@@ -1,0 +1,74 @@
+.navbar{
+    height: 5rem;
+    background-color: white;
+}
+
+.fa-compass{
+    color:#fe424d;
+    font-size:2rem
+}
+
+.nav-link{
+    color: #222222 !important;
+}
+
+.f-info-links a{
+    text-decoration: none;
+    color: #222222;
+}
+
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+
+.f-info-links{
+    width: 100%;
+}
+
+.f-info-socials{
+    font-size: 1.5rem;
+    width: 100%;
+}
+
+.f-info{
+    text-align: center;
+    display: flex;
+    height: 8rem;
+    background-color: #ebebeb;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+}
+
+.container{
+    flex: 1;
+}
+
+.card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+
+.card-img-top{
+    margin: 2rem;
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card{
+    padding: 0 !important;
+}
+
+.card-text p{
+    font-weight: 400 !important;
+}
+
+.show-img{
+    height: 30vh;
+}
+
+.editimg img{
+    width: 4rem;
+    height: 4rem;
+}
