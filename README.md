@@ -1,2 +1,2 @@
 # Airbnb
-https://airbnb-za7r.onrender.com
+https://airbnb-za7r.onrender.com/listing
