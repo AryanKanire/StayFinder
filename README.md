@@ -12,6 +12,7 @@ StayFinder is an Airbnb clone that allows users to search for hotels, view hotel
 - **Hotel Management**:
   - Logged-in users can add new hotel listings.
   - Users can only edit hotel listings that they have created.
+  - Users can delete hotel if they have created it.
 
 ## Tech Stack
 
